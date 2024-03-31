@@ -1,0 +1,80 @@
+2024-03-31T20:02:56,786 Using pip 23.3.1 from /home/hc29225/anaconda3/envs/int/lib/python3.8/site-packages/pip (python 3.8)
+2024-03-31T20:02:56,788 Non-user install because site-packages writeable
+2024-03-31T20:02:56,864 Created temporary directory: /tmp/pip-build-tracker-u_ap84_7
+2024-03-31T20:02:56,864 Initialized build tracking at /tmp/pip-build-tracker-u_ap84_7
+2024-03-31T20:02:56,864 Created build tracker: /tmp/pip-build-tracker-u_ap84_7
+2024-03-31T20:02:56,864 Entered build tracker: /tmp/pip-build-tracker-u_ap84_7
+2024-03-31T20:02:56,864 Created temporary directory: /tmp/pip-install-61k7s1_3
+2024-03-31T20:02:56,864 Created temporary directory: /tmp/pip-ephem-wheel-cache-mgjofo7n
+2024-03-31T20:02:56,868 Obtaining file:///home/hc29225/Documents/torch-int
+2024-03-31T20:02:56,869   Added file:///home/hc29225/Documents/torch-int to build tracker '/tmp/pip-build-tracker-u_ap84_7'
+2024-03-31T20:02:56,869   Running setup.py (path:/home/hc29225/Documents/torch-int/setup.py) egg_info for package from file:///home/hc29225/Documents/torch-int
+2024-03-31T20:02:56,869   Created temporary directory: /tmp/pip-pip-egg-info-rl9j7l0t
+2024-03-31T20:02:56,869   Running command python setup.py egg_info
+2024-03-31T20:02:58,492   running egg_info
+2024-03-31T20:02:58,493   creating /tmp/pip-pip-egg-info-rl9j7l0t/torch_int.egg-info
+2024-03-31T20:02:58,496   writing /tmp/pip-pip-egg-info-rl9j7l0t/torch_int.egg-info/PKG-INFO
+2024-03-31T20:02:58,496   writing dependency_links to /tmp/pip-pip-egg-info-rl9j7l0t/torch_int.egg-info/dependency_links.txt
+2024-03-31T20:02:58,496   writing top-level names to /tmp/pip-pip-egg-info-rl9j7l0t/torch_int.egg-info/top_level.txt
+2024-03-31T20:02:58,497   writing manifest file '/tmp/pip-pip-egg-info-rl9j7l0t/torch_int.egg-info/SOURCES.txt'
+2024-03-31T20:02:58,507   reading manifest file '/tmp/pip-pip-egg-info-rl9j7l0t/torch_int.egg-info/SOURCES.txt'
+2024-03-31T20:02:58,507   adding license file 'LICENSE'
+2024-03-31T20:02:58,507   writing manifest file '/tmp/pip-pip-egg-info-rl9j7l0t/torch_int.egg-info/SOURCES.txt'
+2024-03-31T20:02:58,914   Source in /home/hc29225/Documents/torch-int has version 0.0.0, which satisfies requirement torch-int==0.0.0 from file:///home/hc29225/Documents/torch-int
+2024-03-31T20:02:58,914   Removed torch-int==0.0.0 from file:///home/hc29225/Documents/torch-int from build tracker '/tmp/pip-build-tracker-u_ap84_7'
+2024-03-31T20:02:58,930 Created temporary directory: /tmp/pip-unpack-aah92scb
+2024-03-31T20:02:59,606 Installing collected packages: torch-int
+2024-03-31T20:02:59,608   Running setup.py develop for torch-int
+2024-03-31T20:02:59,608     Running command python setup.py develop
+2024-03-31T20:03:01,169     running develop
+2024-03-31T20:03:01,211     running egg_info
+2024-03-31T20:03:01,215     writing torch_int.egg-info/PKG-INFO
+2024-03-31T20:03:01,215     writing dependency_links to torch_int.egg-info/dependency_links.txt
+2024-03-31T20:03:01,215     writing top-level names to torch_int.egg-info/top_level.txt
+2024-03-31T20:03:01,222     reading manifest file 'torch_int.egg-info/SOURCES.txt'
+2024-03-31T20:03:01,222     adding license file 'LICENSE'
+2024-03-31T20:03:01,222     writing manifest file 'torch_int.egg-info/SOURCES.txt'
+2024-03-31T20:03:01,223     running build_ext
+2024-03-31T20:03:01,257     building 'torch_int._CUDA' extension
+2024-03-31T20:03:01,257     /home/hc29225/anaconda3/envs/int/bin/x86_64-conda-linux-gnu-cc -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -Wstrict-prototypes -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -pipe -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -pipe -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hc29225/anaconda3/envs/int/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/hc29225/anaconda3/envs/int/include -fPIC -Itorch_int/kernels/include -Isubmodules/cutlass/include -Isubmodules/cutlass/tools/util/include -I/home/hc29225/anaconda3/envs/int/lib/python3.8/site-packages/torch/include -I/home/hc29225/anaconda3/envs/int/lib/python3.8/site-packages/torch/include/torch/csrc/api/include -I/home/hc29225/anaconda3/envs/int/lib/python3.8/site-packages/torch/include/TH -I/home/hc29225/anaconda3/envs/int/lib/python3.8/site-packages/torch/include/THC -I/usr/local/cuda/include -I/home/hc29225/anaconda3/envs/int/include/python3.8 -c torch_int/kernels/bindings.cpp -o build/temp.linux-x86_64-cpython-38/torch_int/kernels/bindings.o -std=c++17 -O3 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=_CUDA -D_GLIBCXX_USE_CXX11_ABI=0
+2024-03-31T20:03:01,268     cc1plus: warning: command line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++
+2024-03-31T20:03:17,686     /usr/local/cuda/bin/nvcc -Itorch_int/kernels/include -Isubmodules/cutlass/include -Isubmodules/cutlass/tools/util/include -I/home/hc29225/anaconda3/envs/int/lib/python3.8/site-packages/torch/include -I/home/hc29225/anaconda3/envs/int/lib/python3.8/site-packages/torch/include/torch/csrc/api/include -I/home/hc29225/anaconda3/envs/int/lib/python3.8/site-packages/torch/include/TH -I/home/hc29225/anaconda3/envs/int/lib/python3.8/site-packages/torch/include/THC -I/usr/local/cuda/include -I/home/hc29225/anaconda3/envs/int/include/python3.8 -c torch_int/kernels/linear.cu -o build/temp.linux-x86_64-cpython-38/torch_int/kernels/linear.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -O3 -std=c++17 -DCUDA_ARCH=860 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=_CUDA -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_86,code=compute_86 -gencode=arch=compute_86,code=sm_86 -ccbin /home/hc29225/anaconda3/envs/int/bin/x86_64-conda-linux-gnu-cc
+2024-03-31T20:04:11,401     /home/hc29225/anaconda3/envs/int/bin/x86_64-conda-linux-gnu-c++ -shared -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,-rpath,/home/hc29225/anaconda3/envs/int/lib -L/home/hc29225/anaconda3/envs/int/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,-rpath,/home/hc29225/anaconda3/envs/int/lib -L/home/hc29225/anaconda3/envs/int/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/hc29225/anaconda3/envs/int/lib -Wl,-rpath-link,/home/hc29225/anaconda3/envs/int/lib -L/home/hc29225/anaconda3/envs/int/lib -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hc29225/anaconda3/envs/int/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/hc29225/anaconda3/envs/int/include build/temp.linux-x86_64-cpython-38/torch_int/kernels/bindings.o build/temp.linux-x86_64-cpython-38/torch_int/kernels/linear.o -L/home/hc29225/anaconda3/envs/int/lib/python3.8/site-packages/torch/lib -L/usr/local/cuda/lib64 -lc10 -ltorch -ltorch_cpu -ltorch_python -lcudart -lc10_cuda -ltorch_cuda -o build/lib.linux-x86_64-cpython-38/torch_int/_CUDA.cpython-38-x86_64-linux-gnu.so -lcublas_static -lcublasLt_static -lculibos -lcudart -lcudart_static -lrt -lpthread -ldl -L/usr/lib/x86_64-linux-gnu/
+2024-03-31T20:04:11,730     copying build/lib.linux-x86_64-cpython-38/torch_int/_CUDA.cpython-38-x86_64-linux-gnu.so -> torch_int
+2024-03-31T20:04:11,732     Creating /home/hc29225/anaconda3/envs/int/lib/python3.8/site-packages/torch-int.egg-link (link to .)
+2024-03-31T20:04:11,733     Adding torch-int 0.0.0 to easy-install.pth file
+
+2024-03-31T20:04:11,734     Installed /home/hc29225/Documents/torch-int
+2024-03-31T20:04:11,735     /home/hc29225/anaconda3/envs/int/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+2024-03-31T20:04:11,735     !!
+
+2024-03-31T20:04:11,735             ********************************************************************************
+2024-03-31T20:04:11,735             Please avoid running ``setup.py`` and ``easy_install``.
+2024-03-31T20:04:11,735             Instead, use pypa/build, pypa/installer or other
+2024-03-31T20:04:11,735             standards-based tools.
+
+2024-03-31T20:04:11,736             See https://github.com/pypa/setuptools/issues/917 for details.
+2024-03-31T20:04:11,736             ********************************************************************************
+
+2024-03-31T20:04:11,736     !!
+2024-03-31T20:04:11,736       easy_install.initialize_options(self)
+2024-03-31T20:04:11,736     /home/hc29225/anaconda3/envs/int/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+2024-03-31T20:04:11,736     !!
+
+2024-03-31T20:04:11,736             ********************************************************************************
+2024-03-31T20:04:11,736             Please avoid running ``setup.py`` directly.
+2024-03-31T20:04:11,736             Instead, use pypa/build, pypa/installer or other
+2024-03-31T20:04:11,736             standards-based tools.
+
+2024-03-31T20:04:11,736             See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+2024-03-31T20:04:11,736             ********************************************************************************
+
+2024-03-31T20:04:11,736     !!
+2024-03-31T20:04:11,737       self.initialize_options()
+2024-03-31T20:04:11,737     /home/hc29225/anaconda3/envs/int/lib/python3.8/site-packages/torch/utils/cpp_extension.py:424: UserWarning: There are no /home/hc29225/anaconda3/envs/int/bin/x86_64-conda-linux-gnu-c++ version bounds defined for CUDA version 12.1
+2024-03-31T20:04:11,737       warnings.warn(f'There are no {compiler_name} version bounds defined for CUDA version {cuda_str_version}')
+2024-03-31T20:04:12,077 Successfully installed torch-int-0.0.0
+2024-03-31T20:04:12,080 Remote version of pip: 24.0
+2024-03-31T20:04:12,080 Local version of pip:  23.3.1
+2024-03-31T20:04:12,081 Was pip installed by pip? False
+2024-03-31T20:04:12,081 Removed build tracker: '/tmp/pip-build-tracker-u_ap84_7'
