@@ -20,7 +20,9 @@ pip install -r requirements.txt
 source environment.sh
 bash build_cutlass.sh
 python setup.py install
+pip install -e .
 ```
+Checkout this [issue](https://github.com/Guangxuan-Xiao/torch-int/issues/10)
 
 ## Test
 ```bash
